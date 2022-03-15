@@ -41,7 +41,7 @@ const Form = (props) =>{
 
             {/* hopefully this ninja bonus will work */}
             <label htmlFor="boxSizeInput">Enter a box size!</label>
-            <input type="text" name="square" value="" onChange={handleForm2} />
+            <input type="text" name="square" value={square} onChange={handleForm2} />
             <button type="submit" class="btn btn-primary">Add</button>
         </form><Display allColors={allColors} /></>
         );
